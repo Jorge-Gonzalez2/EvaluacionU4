@@ -8,7 +8,6 @@ export default function ProAxios() {
   const [error, setError] = useState(null); 
 
   useEffect(() => {
-    // (Buena práctica de IA)
     const controller = new AbortController();
 
     axios
